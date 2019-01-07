@@ -31,6 +31,9 @@ npm test
 # runner选择：Karma
 # 创建run.bat
 
+# 打包第三方
+npm run build:dll
+
 # 1、修改文件规则
 # 2、修改文件使用路径
 # 3、创建文件路由

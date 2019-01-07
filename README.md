@@ -31,6 +31,13 @@ npm test
 # runner选择：Karma
 # 创建run.bat
 
+# 打包第三方
+# 在package.json script中加上
+  "build:dll": "webpack --config build/webpack.dll.config.js",
+  "analyz": "NODE_ENV=production npm_config_report=true npm run build"
+# 运行
+npm run build:dll
+
 # 1、修改文件规则
 # 2、修改文件使用路径
 # 3、创建文件路由
